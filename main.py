@@ -2,23 +2,23 @@ import streamlit as st
 
 #Page Setup
 home_page = st.Page(
-    page="Views\Home.py",
+    page="./Views/Home.py",
     title="Home",
     icon=":material/account_circle:",
     default=True,
 )
 
 contact_page = st.Page(
-    page="Views\Contact.py",
+    page="./Views/Contact.py",
     title="Contact Us",
     icon=":material/thumb_up:",
 )
 search_page = st.Page(
-    page="Views\Search.py",
+    page="./Views/Search.py",
     title="Search History",
 )
 event_page = st.Page(
-    page="Views\Event.py",
+    page="./Views/Event.py",
     title="Event Extractor",
 )
 
