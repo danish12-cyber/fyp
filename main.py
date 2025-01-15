@@ -8,7 +8,6 @@ home_page = st.Page(
     default=True,
 )
 
-st.page
 contact_page = st.Page(
     page="./Views/Contact.py",
     title="Contact Us",
