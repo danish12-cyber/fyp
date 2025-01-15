@@ -2,7 +2,7 @@ import streamlit as st
 import Pipeline as pl
 st.title("Event Extractor")
 
-Url = st.text_input("Enter the Url", value="", max_chars=100)
+Url = st.text_input("Enter the Url", max_chars=100)
 result=[]
 
 
