@@ -8,7 +8,7 @@ result=[]
 st.markdown(
     """
     <style>
-    #stMainBlockContainer {
+    [stMainBlockContainer]{
         background-color: #f0f4f0;  # Set your desired background color
     }
     </style>
