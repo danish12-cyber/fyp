@@ -109,6 +109,10 @@ def event_extract(url, MAX_EVENT_SENTENCES):
             article.url
         ])
 
+        send = []
+        send.append(event_type)
+        send.append(event_description)
+        send.append(publish_date)
         time.sleep(2)
-    return event_type
+    return send
     print("Enhanced dataset collection complete. Data saved to 'enhanced_event_dataset.csv'.")
