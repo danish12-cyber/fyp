@@ -4,14 +4,15 @@ import streamlit as st
 home_page = st.Page(
     page="./Views/Home.py",
     title="Home",
-    icon=":material/account_circle:",
+    # icon=":./material/account_circle:",
     default=True,
 )
 
+st.page
 contact_page = st.Page(
     page="./Views/Contact.py",
     title="Contact Us",
-    icon=":material/thumb_up:",
+    # icon=":./material/thumb_up:",
 )
 search_page = st.Page(
     page="./Views/Search.py",
